@@ -1,11 +1,15 @@
 import React from 'react';
-import UseState from './Hooks/usestate';
+import UseState from './Hooks/useState';
+import UseReducerHook from './Hooks/useReducer';
+
 
 
 function App() {
   return (
- <UseState/>
-  
+    <div >
+      <UseState />
+      <UseReducerHook />
+    </div>
   );
 }
 
